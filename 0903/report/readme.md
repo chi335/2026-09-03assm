@@ -395,12 +395,13 @@
 * **정답:** 2개 ($2^2 = 4$)
 
 * ---
-**9. Devise a way of subtracting unsigned binary integers. Test your technique by subtracting binary 00000101 from binary 10001000, producing 10000011. Test your technique with at least two other sets of integers, in which a smaller value is always subtracted from a larger one.
-(부호 없는 이진 정수의 뺄셈 방법을 고안하시오. 이진수 10001000에서 00000101을 빼서 10000011이 산출되는지 당신의 기법을 검증하시오. 항상 작은 값이 큰 값에서 빼지는 조건으로 최소 두 가지 다른 정수 세트를 사용하여 당신의 기법을 테스트하시오.)
+
+9. Devise a way of subtracting unsigned binary integers. Test your technique by subtracting binary 00000101 from binary 10001000, producing 10000011. Test your technique with at least two other sets of integers, in which a smaller value is always subtracted from a larger one.
+(9. 부호 없는 이진 정수의 뺄셈 방법을 고안하시오. 이진수 10001000에서 00000101을 빼서 10000011이 산출되는지 당신의 기법을 검증하시오. 항상 작은 값이 큰 값에서 빼지는 조건으로 최소 두 가지 다른 정수 세트를 사용하여 당신의 기법을 테스트하시오.)
 
 ---
 
-## 1. 이진수 뺄셈 기법 (Subraction Technique)
+## 1. 이진수 뺄셈 기법 (Subtraction Technique)
 
 **받아내림(Borrow) 세로셈 연산 기법**
 - 자릿수(오른쪽 LSB부터 왼쪽 MSB까지)를 맞춰 정렬한 후, 오른쪽에서 왼쪽 방향으로 각 비트별 뺄셈을 진행합니다.

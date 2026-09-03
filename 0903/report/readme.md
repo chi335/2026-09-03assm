@@ -396,7 +396,7 @@
 
 * ---
 
-9. Devise a way of subtracting unsigned binary integers. Test your technique by subtracting binary 00000101 from binary 10001000, producing 10000011. Test your technique with at least two other sets of integers, in which a smaller value is always subtracted from a larger one.
+**9. Devise a way of subtracting unsigned binary integers. Test your technique by subtracting binary 00000101 from binary 10001000, producing 10000011. Test your technique with at least two other sets of integers, in which a smaller value is always subtracted from a larger one.
 (9. 부호 없는 이진 정수의 뺄셈 방법을 고안하시오. 이진수 10001000에서 00000101을 빼서 10000011이 산출되는지 당신의 기법을 검증하시오. 항상 작은 값이 큰 값에서 빼지는 조건으로 최소 두 가지 다른 정수 세트를 사용하여 당신의 기법을 테스트하시오.)
 
 ---

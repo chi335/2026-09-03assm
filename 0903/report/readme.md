@@ -1,9 +1,11 @@
 ### 문제 및 답
 
 **1. In an 8-bit binary number, which is the most significant bit (MSB)?**
+*(8비트 이진수에서 최상위 비트(MSB)는 어느 것인가요?)*
 - **정답:** 8비트 이진수에서 가장 왼쪽에 위치한 비트(가장 높은 자릿수인 $b_7$)가 최상위 비트(MSB, Most Significant Bit)입니다.
 
 **2. What is the decimal representation of each of the following unsigned binary integers?**
+*(다음 각 부호 없는 이진수의 십진수 표현은 무엇인가요?)*
 
 * **a. 00110101**
   - **계산식:** $(0 \times 128) + (0 \times 64) + (1 \times 32) + (1 \times 16) + (0 \times 8) + (1 \times 4) + (0 \times 2) + (1 \times 1)$
@@ -19,7 +21,6 @@
   - **계산식:** $(1 \times 128) + (1 \times 64) + (0 \times 32) + (0 \times 16) + (1 \times 8) + (1 \times 4) + (0 \times 2) + (0 \times 1)$
   - **연산:** $128 + 64 + 8 + 4$
   - **정답:** $204$
----
 
 
 **3. What is the sum of each pair of binary integers?**
@@ -81,8 +82,6 @@
 
 * ---
 
-* ### 1.7 Review Questions and Exercises
-#### 1.7.1 Short Answer
 
 **5. How many bits are used by each of the following data types?**
 *(다음 각 데이터 타입은 몇 비트를 사용하나요?)*
